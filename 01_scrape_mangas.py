@@ -19,6 +19,7 @@ cookies = {}
 if len(sys.argv) == 3:
     cookies['mangadex_session'] = sys.argv[1]
     cookies['mangadex_rememberme_token'] = sys.argv[2]
+    cookie['mangadex_h_toggle'] = '1'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64)'
 }
